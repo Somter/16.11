@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- для отображения иконок подключаем шрифты онлайн -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+</head>
+<body>
+    <h2 class="yellow lighten-3 purple-text text-accent-4">
+        Background-color & Color
+    </h2>
+    <button class="btn purple darken-3 orange-text text-accent-3">
+        Accent button
+    </button>
+    <p class="blue-grey lighten-5 grey-text text-darken-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat at voluptatem laboriosam eveniet quos nisi impedit accusamus, consequuntur eaque. Eum dolorem animi ratione. Numquam, vel! Ab ex est ut sunt!
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="red lighten-2 col s1">1</div>
+            <div class="red lighten-2 col s1">2</div>
+            <div class="red lighten-2 col s1">3</div>
+            <div class="red lighten-2 col s1">4</div>
+            <div class="red lighten-2 col s1">5</div>
+            <div class="red lighten-2 col s1">6</div>
+            <div class="red lighten-2 col s1">7</div>
+            <div class="red lighten-2 col s1">8</div>
+            <div class="red lighten-2 col s1">9</div>
+            <div class="red lighten-2 col s1">10</div>
+            <div class="red lighten-2 col s1">11</div>
+            <div class="red lighten-2 col s1">12</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="blue lighten-2 col s6">1</div>
+            <div class="red lighten-2 col s1">2</div>
+            <div class="red lighten-2 col s1">3</div>
+            <div class="red lighten-2 col s1">4</div>
+            <div class="red lighten-2 col s1">5</div>
+            <div class="red lighten-2 col s1">6</div>
+            <div class="red lighten-2 col s1">7</div>
+            <div class="red lighten-2 col s1">8</div>
+            <div class="red lighten-2 col s1">9</div>
+            <div class="red lighten-2 col s1">10</div>
+            <div class="red lighten-2 col s1">11</div>
+            <div class="red lighten-2 col s1">12</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="red  col s12 m6 l3 xl2">1</div>
+            <div class="lime col s12 m6 l3 xl4">2</div>
+            <div class="teal col s12 m6 l3 xl4">3</div>
+            <div class="pink col s12 m6 l3 xl2">4</div>
+            <div class="purple col s5">5</div>
+            <div class="blue col s5 offset-s2">6</div>
+            <div class="orange col s6 offset-s3">7</div>
+        </div>
+    </div>
+
+
+    <div class="row blue-grey valign-wrapper hoverable" style="height: 150px;">
+        <h5 class="col s12 center-align show-on-small hide-on-med-and-up">center vertically aligned</h5>
+        <p class="col s6 offset-s3 truncate hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo assumenda quidem sint distinctio, reprehenderit nihil maiores earum voluptatibus voluptate cum libero impedit sit eos rerum dolorum reiciendis aut vitae.</p>
+    </div>
+
+
+    <!-- добавляем элемент навигации с серо-голубым фоном -->
+    <nav class="blue-grey">
+        <!-- добавляем контейнер для основного меню, которое будет отображаться на всех устройствах, кроме мобильного -->
+        <div class="nav-wrapper">
+            <!-- добавляем логотип -->
+            <a href="#!" class="brand-logo">Logo</a>
+            <!-- добавляем элемент с иконкой, по нажатию на которую, слева будет выезжать меню на мобильных отображениях -->
+            <!-- для осуществления связи между ссылкой и мобильным меню, необходимо добавить ссылке атрибут data-target -->
+            <a href="#" data-target="mobile-left" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <!-- меню со страницами, с выравниванием по правому краю -->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Page 1</a></li>
+                <li><a href="">Page 2</a></li>
+                <li><a href="">Page 3</a></li>
+                <li><a href="">Page 4</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- меню со страницами, которое будет выезжать слева на мобильном представлении -->
+    <!-- для осуществления связи между ссылкой и мобильным меню, необходимо добавить меню идентификатор с таким же значением как у  атрибута data-target у ссылки-->
+    <ul class="sidenav" id="mobile-left">
+        <li><a href="">Page 1</a></li>
+        <li><a href="">Page 2</a></li>
+        <li><a href="">Page 3</a></li>
+        <li><a href="">Page 4</a></li>
+    </ul>
+
+
+<div class="row">
+    <div class="col s12 m7">
+      <div class="card small">
+        <div class="card-image">
+          <img src="images/img-1.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, obcaecati numquam veritatis dicta voluptate explicabo corrupti animi.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <ul class="pagination">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active indigo"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col s4"> -->
+            <!-- первое изображение без класса -->
+            <img src="images/img-1.jpg">
+        </div>
+        <div class="col s4">   
+            <!-- второе изображение с классом responsive-img -->
+            <img class="responsive-img" src="images/img-1.jpg">
+        </div>
+        <div class="col s4">   
+            <!-- третье изображение с классами responsive-img и  circle -->
+            <img class="circle responsive-img" src="images/img-1.jpg">
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col s6">
+        <!-- добавляем класс video-container блочному элементу-контейнеру для адаптивности -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/rrT6v5sOwJg" frameborder="0" allowfullscreen></iframe>
+        </div>     
+        <h6 class="center">Making Material Design</h6> 
+    </div>
+    <div class="col s6">
+        <!-- добавляем класс responsive-video для адаптивности -->
+        <video class="responsive-video" controls>
+            <source src="media/palette.mp4" type="video/mp4">
+        </video> 
+        <h6 class="center">Palette Perfect</h6>  
+    </div>
+</div> 
+
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+</body>
+</html>
